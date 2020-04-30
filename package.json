@@ -1,0 +1,31 @@
+{
+  "name": "utilcontracts",
+  "version": "1.0.0",
+  "description": "Utility contracts",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "ganache": "ganache-cli -b 1 -f \"https://mainnet.infura.io/v3/<enter-project-id>\" -p \"8545\" -l 8000000 -a 10 -e 10000 -i 1",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/chrsengel/utilcontracts.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/chrsengel/utilcontracts/issues"
+  },
+  "homepage": "https://github.com/chrsengel/utilcontracts#readme",
+  "devDependencies": {
+    "dotenv": "^8.2.0",
+    "ethers": "^4.0.47",
+    "ganache-cli": "^6.9.1",
+    "prettier": "^2.0.5",
+    "prettier-plugin-solidity": "^1.0.0-alpha.49",
+    "solidity-docgen": "^0.5.3"
+  }
+}

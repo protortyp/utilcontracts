@@ -6,7 +6,7 @@ This is inspired by [@henrynguyen5](https://github.com/henrynguyen5).
 
 The utils contract was deployed across all testnets **at the same address**. Get the minified abi at `Utils.json`.
 
-Current version: `0xA1e92AF652Da241C89A345DdDe46522b4caf7fb5`
+Current version: `0x6ebEF9eB144A512B86218B38FF8ddA88E2F60367`
 
 ## Compound
 
@@ -17,7 +17,7 @@ Quickly get both the underlying asset balance and balance of the cToken for a nu
 ```javascript
 // using ethers.js
 const Utils = require("Utils.json");
-let address = "0xA1e92AF652Da241C89A345DdDe46522b4caf7fb5";
+let address = "0x6ebEF9eB144A512B86218B38FF8ddA88E2F60367";
 let utils = new ethers.Contract(address, Utils.abi, provider);
 let cTokens = [
   "0x4ddc2d193948926d02f9b1fe9e1daa0718270ed5",

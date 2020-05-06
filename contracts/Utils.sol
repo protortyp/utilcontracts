@@ -54,9 +54,8 @@ contract Utils {
 
   /**
    * @dev Get the current supply rates of all cTokens.
-
-   * This can be used to quickly calculate all APYs of all cTokens.
    *
+   * This can be used to quickly calculate all APYs of all cTokens.
    * APY = (SUPPLY_RATE * BLOCKS_PER_YEAR) / 1e18
    *
    * @param _tokens the cTokens
@@ -164,7 +163,7 @@ contract Utils {
 
 
 /**
- + @title MultiToken
+ * @title MultiToken
  * @dev Multi token interface that can be used to interact with cToken and
  *      other ERC20 contracts.
  */
@@ -180,7 +179,7 @@ interface MultiToken {
 
 
 /**
- + @title Dethlify
+ * @title Dethlify
  * @dev Interface for dethlify smart contracts
  */
 interface Dethlify {
